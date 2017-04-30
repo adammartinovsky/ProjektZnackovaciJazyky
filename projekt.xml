@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="projekt_schema.xsd">
+<Options>	
+	<Graphics>
+		<Display>
+			<DisplayMode>Windowed(Fullscreen)</DisplayMode>
+			<Resolution>1920x1024</Resolution>
+			<VerticalSync Enabled="True"></VerticalSync>
+			<RefreshRate></RefreshRate>
+			<Gamma>50</Gamma>
+			<Antialias Enabled="False"></Antialias>
+		</Display>
+		<Graphics>
+			<GraphicsQuality>Extreme</GraphicsQuality>
+			<Shaders>Ultra</Shaders>
+			<Shadows>Ultra</Shadows>
+			<Models>Ultra</Models>
+			<Lightning>High</Lightning>
+			<Reflection>On</Reflection>
+			<IndirectShadows>On</IndirectShadows>
+			<TextureQuality>Ultra</TextureQuality>
+			<Post-Processing>Ultra</Post-Processing>
+			<Physics>Extreme</Physics>
+			<Terrain>Ultra</Terrain>
+			<Movies>High</Movies>
+			<Effects>Ultra</Effects>
+		</Graphics>
+	</Graphics>
+	<Sound>
+		<Setup>
+			<OutputDevice EnableReverb="True" PlayInBackground="False" HeadphoneMode="False">Default
+			</OutputDevice>
+		</Setup>
+		<Quality>
+			<SoundQuality>High</SoundQuality>
+			<SpeakerSetup>Stereo</SpeakerSetup>
+			<SoundChannels>64</SoundChannels>
+		</Quality>
+		<Volume>
+			<MasterVolume>17</MasterVolume>
+			<Music Enabled="False">0</Music>
+			<Sound Enabled="True"></Sound>
+			<AmbientSounds Enabled="True">16</AmbientSounds>
+			<SoundEffects Enabled="True">19</SoundEffects>
+			<ErrorSounds Enabled="True"></ErrorSounds>
+			<InterfaceSounds Enabled="True">20</InterfaceSounds>
+			<Voices Enabled="True">21</Voices>
+			<ResponeSounds Enabled="True"></ResponeSounds>
+			<Announcer Enabled="True">24</Announcer>
+		</Volume>
+		<Subtitles DisplaySubtitles="True">
+		</Subtitles>
+	</Sound>
+	<MouseandKeyboard>
+		<Mouse EnableMouseSensitivity="True" Value="50" EnableMouseWheelZoom="True" ReduceMouseLag="False" ConfineMouseCursor="Smart" CursorSize="35"/>
+	</MouseandKeyboard>
+	<Gameplay>
+		<UserInterface ColorBlindMode="True" Right-ClickThroughMinimap="False"/>
+	</Gameplay>
+	<Social>
+		<Chat EnableMatureLanguageFilter="True" EnableAlliedChat="True"/>
+		<ChatChannels RejoinChannelsonLogin="True" ShowBlizzardChannelsin-game="False" Shownon-BlizzardChannelsin-game="False"/>
+		<Privacy OnlyAllowFriendsToSendMeInvites="False" OnlyAllowFriendsToSendMeMessages="False"/>
+	</Social>
+</Options>
+<Options>	
+	<Graphics>
+		<Display>
+			<DisplayMode>Windowed(Fullscreen)</DisplayMode>
+			<Resolution>1920x1024</Resolution>
+			<VerticalSync Enabled="False"></VerticalSync>
+			<RefreshRate></RefreshRate>
+			<Gamma>40</Gamma>
+			<Antialias Enabled="False"></Antialias>
+		</Display>
+		<Graphics>
+			<GraphicsQuality>High</GraphicsQuality>
+			<Shaders>High</Shaders>
+			<Shadows>High</Shadows>
+			<Models>High</Models>
+			<Lightning>High</Lightning>
+			<Reflection>On</Reflection>
+			<IndirectShadows>On</IndirectShadows>
+			<TextureQuality>High</TextureQuality>
+			<Post-Processing>High</Post-Processing>
+			<Physics>High</Physics>
+			<Terrain>High</Terrain>
+			<Movies>High</Movies>
+			<Effects>High</Effects>
+		</Graphics>
+	</Graphics>
+	<Sound>
+		<Setup>
+			<OutputDevice EnableReverb="False" PlayInBackground="False" HeadphoneMode="False">Default
+			</OutputDevice>
+		</Setup>
+		<Quality>
+			<SoundQuality>High</SoundQuality>
+			<SpeakerSetup>Stereo</SpeakerSetup>
+			<SoundChannels>50</SoundChannels>
+		</Quality>
+		<Volume>
+			<MasterVolume>25</MasterVolume>
+			<Music Enabled="False">30</Music>
+			<Sound Enabled="True"></Sound>
+			<AmbientSounds Enabled="True">30</AmbientSounds>
+			<SoundEffects Enabled="True">30</SoundEffects>
+			<ErrorSounds Enabled="True"></ErrorSounds>
+			<InterfaceSounds Enabled="True">45</InterfaceSounds>
+			<Voices Enabled="True">23</Voices>
+			<ResponeSounds Enabled="True"></ResponeSounds>
+			<Announcer Enabled="True">45</Announcer>
+		</Volume>
+		<Subtitles DisplaySubtitles="False">
+		</Subtitles>
+	</Sound>
+	<MouseandKeyboard>
+		<Mouse EnableMouseSensitivity="True" Value="35" EnableMouseWheelZoom="True" ReduceMouseLag="False" ConfineMouseCursor="Smart" CursorSize="35"/>
+	</MouseandKeyboard>
+	<Gameplay>
+		<UserInterface ColorBlindMode="False" Right-ClickThroughMinimap="False"/>
+	</Gameplay>
+	<Social>
+		<Chat EnableMatureLanguageFilter="True" EnableAlliedChat="True"/>
+		<ChatChannels RejoinChannelsonLogin="True" ShowBlizzardChannelsin-game="False" Shownon-BlizzardChannelsin-game="False"/>
+		<Privacy OnlyAllowFriendsToSendMeInvites="False" OnlyAllowFriendsToSendMeMessages="False"/>
+	</Social>
+</Options>
+<Options>	
+	<Graphics>
+		<Display>
+			<DisplayMode>Fullscreen</DisplayMode>
+			<Resolution>1920x1024</Resolution>
+			<VerticalSync Enabled="True"></VerticalSync>
+			<RefreshRate></RefreshRate>
+			<Gamma>40</Gamma>
+			<Antialias Enabled="True"></Antialias>
+		</Display>
+		<Graphics>
+			<GraphicsQuality>Low</GraphicsQuality>
+			<Shaders>Low</Shaders>
+			<Shadows>Low</Shadows>
+			<Models>Low</Models>
+			<Lightning>Low</Lightning>
+			<Reflection>On</Reflection>
+			<IndirectShadows>On</IndirectShadows>
+			<TextureQuality>Low</TextureQuality>
+			<Post-Processing>Low</Post-Processing>
+			<Physics>Low</Physics>
+			<Terrain>High</Terrain>
+			<Movies>High</Movies>
+			<Effects>High</Effects>
+		</Graphics>
+	</Graphics>
+	<Sound>
+		<Setup>
+			<OutputDevice EnableReverb="False" PlayInBackground="False" HeadphoneMode="False">Default
+			</OutputDevice>
+		</Setup>
+		<Quality>
+			<SoundQuality>Low</SoundQuality>
+			<SpeakerSetup>Stereo</SpeakerSetup>
+			<SoundChannels>50</SoundChannels>
+		</Quality>
+		<Volume>
+			<MasterVolume>25</MasterVolume>
+			<Music Enabled="False">30</Music>
+			<Sound Enabled="True"></Sound>
+			<AmbientSounds Enabled="True">30</AmbientSounds>
+			<SoundEffects Enabled="True">30</SoundEffects>
+			<ErrorSounds Enabled="True"></ErrorSounds>
+			<InterfaceSounds Enabled="True">45</InterfaceSounds>
+			<Voices Enabled="True">23</Voices>
+			<ResponeSounds Enabled="True"></ResponeSounds>
+			<Announcer Enabled="True">45</Announcer>
+		</Volume>
+		<Subtitles DisplaySubtitles="False">
+		</Subtitles>
+	</Sound>
+	<MouseandKeyboard>
+		<Mouse EnableMouseSensitivity="True" Value="35" EnableMouseWheelZoom="True" ReduceMouseLag="False" ConfineMouseCursor="Smart" CursorSize="35"/>
+	</MouseandKeyboard>
+	<Gameplay>
+		<UserInterface ColorBlindMode="False" Right-ClickThroughMinimap="False"/>
+	</Gameplay>
+	<Social>
+		<Chat EnableMatureLanguageFilter="True" EnableAlliedChat="True"/>
+		<ChatChannels RejoinChannelsonLogin="True" ShowBlizzardChannelsin-game="False" Shownon-BlizzardChannelsin-game="False"/>
+		<Privacy OnlyAllowFriendsToSendMeInvites="False" OnlyAllowFriendsToSendMeMessages="False"/>
+	</Social>
+</Options>
+<Options>	
+	<Graphics>
+		<Display>
+			<DisplayMode>Fullscreen</DisplayMode>
+			<Resolution>1920x1024</Resolution>
+			<VerticalSync Enabled="True"></VerticalSync>
+			<RefreshRate></RefreshRate>
+			<Gamma>40</Gamma>
+			<Antialias Enabled="True"></Antialias>
+		</Display>
+		<Graphics>
+			<GraphicsQuality>Ultra</GraphicsQuality>
+			<Shaders>High</Shaders>
+			<Shadows>Low</Shadows>
+			<Models>Low</Models>
+			<Lightning>Extreme</Lightning>
+			<Reflection>On</Reflection>
+			<IndirectShadows>On</IndirectShadows>
+			<TextureQuality>High</TextureQuality>
+			<Post-Processing>Low</Post-Processing>
+			<Physics>Low</Physics>
+			<Terrain>High</Terrain>
+			<Movies>High</Movies>
+			<Effects>High</Effects>
+		</Graphics>
+	</Graphics>
+	<Sound>
+		<Setup>
+			<OutputDevice EnableReverb="False" PlayInBackground="True" HeadphoneMode="True">Default
+			</OutputDevice>
+		</Setup>
+		<Quality>
+			<SoundQuality>High</SoundQuality>
+			<SpeakerSetup>Stereo</SpeakerSetup>
+			<SoundChannels>45</SoundChannels>
+		</Quality>
+		<Volume>
+			<MasterVolume>16</MasterVolume>
+			<Music Enabled="False">37</Music>
+			<Sound Enabled="True"></Sound>
+			<AmbientSounds Enabled="True">39</AmbientSounds>
+			<SoundEffects Enabled="True">45</SoundEffects>
+			<ErrorSounds Enabled="True"></ErrorSounds>
+			<InterfaceSounds Enabled="True">86</InterfaceSounds>
+			<Voices Enabled="True">23</Voices>
+			<ResponeSounds Enabled="True"></ResponeSounds>
+			<Announcer Enabled="True">43</Announcer>
+		</Volume>
+		<Subtitles DisplaySubtitles="True">
+		</Subtitles>
+	</Sound>
+	<MouseandKeyboard>
+		<Mouse EnableMouseSensitivity="False" Value="35" EnableMouseWheelZoom="True" ReduceMouseLag="True" ConfineMouseCursor="Smart" CursorSize="35"/>
+	</MouseandKeyboard>
+	<Gameplay>
+		<UserInterface ColorBlindMode="False" Right-ClickThroughMinimap="False"/>
+	</Gameplay>
+	<Social>
+		<Chat EnableMatureLanguageFilter="False" EnableAlliedChat="True"/>
+		<ChatChannels RejoinChannelsonLogin="False" ShowBlizzardChannelsin-game="False" Shownon-BlizzardChannelsin-game="False"/>
+		<Privacy OnlyAllowFriendsToSendMeInvites="False" OnlyAllowFriendsToSendMeMessages="False"/>
+	</Social>
+</Options>
+<Options>	
+	<Graphics>
+		<Display>
+			<DisplayMode>Windowed(Fullscreen)</DisplayMode>
+			<Resolution>1920x1024</Resolution>
+			<VerticalSync Enabled="True"></VerticalSync>
+			<RefreshRate></RefreshRate>
+			<Gamma>60</Gamma>
+			<Antialias Enabled="True"></Antialias>
+		</Display>
+		<Graphics>
+			<GraphicsQuality>Ultra</GraphicsQuality>
+			<Shaders>High</Shaders>
+			<Shadows>Medium</Shadows>
+			<Models>Low</Models>
+			<Lightning>Medium</Lightning>
+			<Reflection>On</Reflection>
+			<IndirectShadows>On</IndirectShadows>
+			<TextureQuality>High</TextureQuality>
+			<Post-Processing>Low</Post-Processing>
+			<Physics>Low</Physics>
+			<Terrain>High</Terrain>
+			<Movies>Medium</Movies>
+			<Effects>Medium</Effects>
+		</Graphics>
+	</Graphics>
+	<Sound>
+		<Setup>
+			<OutputDevice EnableReverb="True" PlayInBackground="True" HeadphoneMode="False">Default
+			</OutputDevice>
+		</Setup>
+		<Quality>
+			<SoundQuality>Medium</SoundQuality>
+			<SpeakerSetup>Stereo</SpeakerSetup>
+			<SoundChannels>45</SoundChannels>
+		</Quality>
+		<Volume>
+			<MasterVolume>16</MasterVolume>
+			<Music Enabled="False">37</Music>
+			<Sound Enabled="True"></Sound>
+			<AmbientSounds Enabled="True">39</AmbientSounds>
+			<SoundEffects Enabled="True">45</SoundEffects>
+			<ErrorSounds Enabled="True"></ErrorSounds>
+			<InterfaceSounds Enabled="True">86</InterfaceSounds>
+			<Voices Enabled="True">23</Voices>
+			<ResponeSounds Enabled="True"></ResponeSounds>
+			<Announcer Enabled="True">43</Announcer>
+		</Volume>
+		<Subtitles DisplaySubtitles="True">
+		</Subtitles>
+	</Sound>
+	<MouseandKeyboard>
+		<Mouse EnableMouseSensitivity="False" Value="35" EnableMouseWheelZoom="False" ReduceMouseLag="False" ConfineMouseCursor="Smart" CursorSize="35"/>
+	</MouseandKeyboard>
+	<Gameplay>
+		<UserInterface ColorBlindMode="False" Right-ClickThroughMinimap="False"/>
+	</Gameplay>
+	<Social>
+		<Chat EnableMatureLanguageFilter="False" EnableAlliedChat="False"/>
+		<ChatChannels RejoinChannelsonLogin="False" ShowBlizzardChannelsin-game="False" Shownon-BlizzardChannelsin-game="False"/>
+		<Privacy OnlyAllowFriendsToSendMeInvites="True" OnlyAllowFriendsToSendMeMessages="True"/>
+	</Social>
+</Options>
+</Settings>

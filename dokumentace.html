@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dokumentace semestrálního projektu</title>
+	</head>
+	<body>		
+		<header>
+			<h1>Dokumentace k XML projektu: Nastavení aplikace Heroes of the Storm</h1>
+			<ol>
+				<li><a href="#uvod">Úvod</a></li>
+				<li><a href="#metodika">Metodika</a></li>
+				<li><a href="#soubory">Soubory</a></li>
+				<li><a href="#popis">Popis elementů a atributů</a></li>
+				<li><a href="#transformace">Transformace</a></li>
+				<li><a href="#zaver">Závěr</a></li>
+		</ol>
+
+		</header>
+		<article>
+			<h2><a id="uvod">Úvod</a></h2>
+			<p>
+				Tento projekt se zabývá nastavením hry Heroes of the Storm od společnosti Blizzard Entertainment. Vybral jsem různá nastavení hry.
+			</p>
+		</article>
+		<article>
+			<h2><a id="metodika">Metodika</a></h2>
+			<p>Použité nástroje:</p>
+			<ul>
+				<li><a href="https://www.w3schools.com/xml/">XML</a></li>
+				<li><a href="https://www.w3schools.com/xml/schema_intro.asp">XML Schema</a></li>
+				<li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+				<li><a href="https://www.w3schools.com/xml/xsl_languages.asp">XSL</a></li>
+				<li><a href="https://www.w3schools.com/xml/xsl_transformation.asp">XSLT</a></li>
+				</ul>	
+		</article>
+		<article>
+			<h2><a id="soubory">Soubory</a></h2>
+			<dl>
+				<dt>XML soubor</dt>
+				<dd>Nastavení hry</dd>
+				<dt>XML Schéma</dt>
+				<dd>Popisuje strukturu XML souboru</dd>
+				<dt>XSL Transformace</dt>
+				<dd>Style sheet pro XML transformaci</dd>
+				<dt>HTML soubor</dt>
+				<dd>Sepsaná dokumentace k projektu</dd>
+			</dl>	
+		</article>
+		<article>
+			<h2><a id="popis">Popis elementů a atributů</a></h2>
+			<table border="1">
+				<tr>
+					<th>Element nebo atribut</th>
+					<th>Popis elementu</th>
+				</tr>
+				<tr>
+					<td>Options</td>
+					<td>Roděluje jednotlivá nstavení</td>
+				</tr>
+				<tr>
+					<td>Display</td>
+					<td>Obsahuje nastaveni displeje</td>
+				</tr>
+				<tr>
+					<td>DisplayMode</td>
+					<td>Windowed nebo fullscreen</td>
+				</tr>
+				<tr>
+					<td>VerticalSync</td>
+					<td>Atribut určuje zda je vertical sync zapnutý nebo vypnutý</td>
+				</tr>
+				<tr>
+					<td>RefreshRate</td>
+					<td>Počet snímků za sekundu</td>
+				</tr>
+				<tr>
+					<td>Gamma</td>
+					<td>Nastavení gammy</td>
+				</tr>
+				<tr>
+					<td>Antialias</td>
+					<td>atribut určuje zda je Antialias zapnutý nebo vypnutý</td>
+				</tr>
+				<tr>
+					<td>Graphics</td>
+					<td>Nastavení grafiky hry</td>
+				</tr>
+				<tr>
+					<td>GraphicsQuality</td>
+					<td>Vybraná hodnota grafickí kvality</td>
+				</tr>
+				<tr>
+					<td>Shaders</td>
+					<td>Nastavení shadování</td>
+				</tr>
+				<tr>
+					<td>Shadows</td>
+					<td>Kvality stínů</td>
+				</tr>
+				<tr>
+					<td>Models</td>
+					<td>Kvalita modelů</td>
+				</tr>
+				<tr>
+					<td>Lightning</td>
+					<td>Nastavení kvality světel</td>
+				</tr>
+				<tr>
+					<td>Reflection</td>
+					<td>Zda chceme mít reflection on nebo off</td>
+				</tr>
+				<tr>
+					<td>IndirectShadows</td>
+					<td>Zapnutí možnosti indirect shadows</td>
+				</tr>
+				<tr>
+					<td>TextureQuality</td>
+					<td>Kvality textůr</td>
+				</tr>
+				<tr>
+					<td>Post-Processing</td>
+					<td>Nastavení Post-Processing</td>
+				</tr>
+				<tr>
+					<td>Physics</td>
+					<td>Nastavení úrovně physics</td>
+				</tr>
+				<tr>
+					<td>Terrain</td>
+					<td>Kvalita prostředí</td>
+				</tr>
+				<tr>
+					<td>Movies</td>
+					<td>Kvalita filmů</td>
+				</tr>
+				<tr>
+					<td>Effects</td>
+					<td>Nastavení kvality efektů</td>
+				</tr>
+				<tr>
+					<td>Sound</td>
+					<td>Obsahuje nastavení zvuku</td>
+				</tr>
+				<tr>
+					<td>Setup</td>
+					<td>Možnosti pro přehrávaní zvuku</td>
+				</tr>
+				<tr>
+					<td>OutputDevice</td>
+					<td>Základní zařízení pro přehrávání, má několik atributů</td>
+				</tr>
+				<tr>
+					<td>Atribut EnableReverb</td>
+					<td>Povolení možnosti EnableReverb</td>
+				</tr>
+				<tr>
+					<td>Atribut PlayInBackground</td>
+					<td>Povolení možnosti PlayInBackground</td>
+				</tr>
+				<tr>
+					<td>Atribut HeadphoneMode</td>
+					<td>Povolení možnosti HeadphoneMode</td>
+				</tr>
+				<tr>
+					<td>Quality</td>
+					<td>Nastavení kvality zvuku</td>
+				</tr>
+				<tr>
+					<td>SoundQuality</td>
+					<td>Úroveň kvality zvuku</td>
+				</tr>
+				<tr>
+					<td>SpeakerSetup</td>
+					<td>Nastavení speakrů</td>
+				</tr>
+				<tr>
+					<td>SoundChannels</td>
+					<td>Nastavení SoundChannels</td>
+				</tr>
+				<tr>
+					<td>Volume</td>
+					<td>Hodnoty hlasitosti zvuku</td>
+				</tr>
+				<tr>
+					<td>MasterVolume</td>
+					<td>Hodnota hlavní hlasitosti</td>
+				</tr>
+				<tr>
+					<td>Music</td>
+					<td>Hlasitost hudby a atribut povolení</td>
+				</tr>
+				<tr>
+					<td>Sound</td>
+					<td>obsahuje atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>AmbientSound</td>
+					<td>Úrověň nastavení ambient sound a atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>ErrorSound</td>
+					<td>obsahuje atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>InterfaceSounds</td>
+					<td>Úrověň nastavení interface sounds a atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>Voices</td>
+					<td>Hlasitost hlasů a atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>ResponseSounds</td>
+					<td>Úrověň nastavení response sounds a atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>Announcer</td>
+					<td>Hlasitost hlasatele a atribut pro povolení</td>
+				</tr>
+				<tr>
+					<td>Subtitles</td>
+					<td>Obsahuje atribut DisplaySubtitles</td>
+				</tr>
+				<tr>
+					<td>MouseandKeyboard</td>
+					<td>Nastavení myši a klávesnice</td>
+				</tr>
+				<tr>
+					<td>Mouse</td>
+					<td>Obsahuje několik atributů, které nastavují myš</td>
+				</tr>
+				<tr>
+					<td>Atribut EnableMouseSensitivity</td>
+					<td>Povolení sensitivity myši</td>
+				</tr>
+				<tr>
+					<td>Atribut value</td>
+					<td>Nastavení rychlosti myši</td>
+				</tr>
+				<tr>
+					<td>Atribut EnableMouseWheelZoom</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut ReduceMouseLag</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut ConfineMouseCursor</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut CursorSize</td>
+					<td>Velikost kurzoru</td>
+				</tr>
+				<tr>
+					<td>Gameplay</td>
+					<td>Nastavení herních možností</td>
+				</tr>
+				<tr>
+					<td>UserInterface</td>
+					<td>Nastavení uživatelského prostředí, obsahuje dva atributy</td>
+				</tr>
+				<tr>
+					<td>Atribut ColorBlindMode</td>
+					<td>Povolení color blind módu</td>
+				</tr>
+				<tr>
+					<td>Atribut Right-ClickThroughMinimap</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>Social</td>
+					<td>Nastavení socialních možností</td>
+				</tr>
+				<tr>
+					<td>Chat</td>
+					<td>Obsahuje dva atributy nastavujíci možnosti chatu</td>
+				</tr>
+				<tr>
+					<td>Atribut EnableMatureLanguageFilter</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut EnableAlliedChat</td>
+					<td>Povolení atributu</td>
+				</tr>
+				<tr>
+					<td>ChatChannels</td>
+					<td>Nastavení chatovacích kanálů, obsahuje tři atributy</td>
+				</tr>
+				<tr>
+					<td>Atribut RejoinChannelsonLogin</td>
+					<td>Povoleni atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut ShowBlizzardChannelsin-game</td>
+					<td>Povoleni atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut Shownon-BlizzardChannelsin-game</td>
+					<td>Povoleni atributu</td>
+				</tr>
+				<tr>
+					<td>Privacy</td>
+					<td>Nastavení soukromí, obsahuje dva atributy</td>
+				</tr>
+				<tr>
+					<td>Atribut OnlyAllowFriendsToSendMeInvites</td>
+					<td>Povoleni atributu</td>
+				</tr>
+				<tr>
+					<td>Atribut OnlyAllowFriendsToSendMeMessages</td>
+					<td>Povoleni atributu</td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<h2><a id="transformace">Transformace</a></h2>
+			<p>Použil jsem XSL k transformaci XML do HTML</p>
+		</article>
+		<article>
+			<h2><a id="zaver">Závěr</a></h2>
+			<p>Práce mi pomohla obohatit mé znalosti značkovacích jazyků. XML dovoluje jednoduché zanesení nastavení aplikací.</p>
+		</article>
+		<footer>
+			<p>
+			Projekt z předmětu značkovací jazyky 2017, napsal Adam Martinovský.©
+			</p>
+		</footer>
+	</body>
+</html>

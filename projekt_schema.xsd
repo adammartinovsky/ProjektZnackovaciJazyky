@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Settings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Options"  maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Graphics">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Display">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="DisplayMode"/>
+                          <xs:element type="xs:string" name="Resolution"/>
+                          <xs:element name="VerticalSync">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="RefreshRate"/>
+                          <xs:element type="xs:byte" name="Gamma"/>
+                          <xs:element name="Antialias">
+                          <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Graphics">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="GraphicsQuality"/>
+                          <xs:element type="xs:string" name="Shaders"/>
+                          <xs:element type="xs:string" name="Shadows"/>
+                          <xs:element type="xs:string" name="Models"/>
+                          <xs:element type="xs:string" name="Lightning"/>
+                          <xs:element type="xs:string" name="Reflection"/>
+                          <xs:element type="xs:string" name="IndirectShadows"/>
+                          <xs:element type="xs:string" name="TextureQuality"/>
+                          <xs:element type="xs:string" name="Post-Processing"/>
+                          <xs:element type="xs:string" name="Physics"/>
+                          <xs:element type="xs:string" name="Terrain"/>
+                          <xs:element type="xs:string" name="Movies"/>
+                          <xs:element type="xs:string" name="Effects"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Sound">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Setup">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="OutputDevice">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="EnableReverb"/>
+                                  <xs:attribute type="xs:string" name="PlayInBackground"/>
+                                  <xs:attribute type="xs:string" name="HeadphoneMode"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Quality">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="SoundQuality"/>
+                          <xs:element type="xs:string" name="SpeakerSetup"/>
+                          <xs:element type="xs:byte" name="SoundChannels"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Volume">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="MasterVolume"/>
+                          <xs:element name="Music">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Sound">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="AmbientSounds">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="SoundEffects">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ErrorSounds">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="InterfaceSounds">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Voices">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ResponeSounds">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Announcer">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:byte">
+                                  <xs:attribute type="xs:string" name="Enabled"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Subtitles">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="DisplaySubtitles"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MouseandKeyboard">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Mouse">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="EnableMouseSensitivity"/>
+                            <xs:attribute type="xs:byte" name="Value"/>
+                            <xs:attribute type="xs:string" name="EnableMouseWheelZoom"/>
+                            <xs:attribute type="xs:string" name="ReduceMouseLag"/>
+                            <xs:attribute type="xs:string" name="ConfineMouseCursor"/>
+                            <xs:attribute type="xs:byte" name="CursorSize"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Gameplay">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UserInterface">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="ColorBlindMode"/>
+                            <xs:attribute type="xs:string" name="Right-ClickThroughMinimap"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Social">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Chat">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="EnableMatureLanguageFilter"/>
+                            <xs:attribute type="xs:string" name="EnableAlliedChat"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ChatChannels">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="RejoinChannelsonLogin"/>
+                            <xs:attribute type="xs:string" name="ShowBlizzardChannelsin-game"/>
+                            <xs:attribute type="xs:string" name="Shownon-BlizzardChannelsin-game"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Privacy">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="OnlyAllowFriendsToSendMeInvites"/>
+                            <xs:attribute type="xs:string" name="OnlyAllowFriendsToSendMeMessages"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
